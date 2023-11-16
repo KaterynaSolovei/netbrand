@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  background-color: #5a5a5a;
+  background-color: #000000;
   background-size: cover;
 }
 
@@ -26,29 +26,10 @@ body {
 
   margin-bottom: 5px;
 
-  color: white;
+  color: rgb(255, 255, 255);
 
   font-family: "Casa";
-  font-size: 75px;
-}
-
-.subtitle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -ms-flex-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-
-  margin-top: 0;
-
-  color: #ffffff;
-
-  font-family: "Ambiguity Normate Rounded";
-  font-size: 20px;
+  font-size: 65px;
 }
 
 .container {
@@ -63,8 +44,8 @@ img {
   display: -ms-flexbox;
   display: flex;
 
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  min-height: 100%;
   margin-top: 10%;
 }
 
